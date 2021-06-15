@@ -39,3 +39,11 @@ nav .nav_right li {
   font-size: x-small;
   margin: 1rem;
 }
+
+header {
+  width: 100%;
+  height: 95vh;
+  background-image: url("../img/jumbo.jpg");
+  background-position: center, left;
+  filter: brightness(0.5);
+}
