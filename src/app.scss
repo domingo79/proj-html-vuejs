@@ -7,6 +7,15 @@
 @import 'partials/logo';
 @import 'partials/header-rigth';
 @import 'partials/header-cards';
+@import 'partials/business_area_cards';
+
+main{
+    .business_area{
+        width: 100%;
+        height: 500px;
+        background-color: $bgBusinessArea;
+    }
+}
 
 
 

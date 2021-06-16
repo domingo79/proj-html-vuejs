@@ -1,0 +1,48 @@
+.business_area_cards{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card_service{
+        @include card_Business;
+        span{
+            color: $titoloPiccolo;
+            font-size: xx-small;
+            font-weight: 600;
+        }
+        h2{
+            color: $titoloGrande;
+            font-size: 2.1rem;
+        }
+        p{
+            font-size: x-small;
+            color: $txtParagrafo;
+        }
+        ul{
+            padding: 1.5rem 0;
+        }
+        li{
+            @include list-in-line;
+            font-size: small;
+            color: $txtFintiPulsanti;
+            padding: 0.30rem 0.30rem;
+            border-radius: 5px;;
+            background-color: $fintiPulsanti;
+        }
+        a{
+            @include button_full;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+    }
+    .card_tecnology{
+        @include card_Business;
+        background-color: #fff;
+    }
+    .card_transport{
+        @include card_Business;
+        background-color: #fff;
+    }
+}
