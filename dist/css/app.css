@@ -246,6 +246,75 @@ header .header_right {
   padding: 0.25rem 0.25rem;
 }
 
+.about_company {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 4rem 1rem 0 18rem;
+  background-color: #111117;
+}
+.about_company > span {
+  color: #02A6A6;
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.about_company h2 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.about_company h2 span {
+  background-color: #0E272D;
+  padding: 0.25rem 1rem;
+}
+.about_company p {
+  color: #C0C3D0;
+  font-size: small;
+  padding-bottom: 2rem;
+}
+.about_company .grafico {
+  width: 90%;
+  height: 110px;
+  text-align: left;
+  padding-top: 3rem;
+}
+.about_company .grafico span {
+  float: left;
+  width: 70px;
+  height: 70px;
+  border: 6px solid #232328;
+  border-radius: 50%;
+  color: #C0C3D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  font-weight: 600;
+}
+.about_company .grafico h4 {
+  float: left;
+  width: 70%;
+  color: #f9f9f9;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+.about_company .grafico p {
+  float: left;
+  width: 70%;
+  font-size: 0.7rem;
+  color: #C0C3D0;
+}
+
+.about_company_image {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url("../img/about-5.jpg");
+  background-position: right, bottom;
+  background-size: cover;
+}
+
 main .business_area {
   width: 100%;
   height: 500px;
@@ -254,18 +323,4 @@ main .business_area {
 main .the_company {
   width: 100%;
   height: 700px;
-}
-main .the_company .about_company {
-  width: 50%;
-  height: 100%;
-  float: left;
-  background-color: #111117;
-}
-main .the_company .about_company_image {
-  width: 50%;
-  height: 100%;
-  float: left;
-  background-image: url("../img/about-5.jpg");
-  background-position: right, bottom;
-  background-size: cover;
 }

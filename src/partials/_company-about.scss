@@ -1,0 +1,60 @@
+.about_company{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 4rem 1rem 0 18rem;
+    background-color: #111117;
+
+    > span{
+        color: $titoloPiccolo;
+        font-size: small;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #fff;
+        font-size: 2rem;
+        padding: 2rem 0;
+        span{
+            background-color: #0E272D;
+            padding: 0.25rem 1rem;
+        }
+    }
+    p{
+        color: $txtCompany;
+        font-size: small;
+        padding-bottom: 2rem;
+    }
+    .grafico{
+        width: 90%;
+        height: 110px;
+        text-align: left;
+        padding-top: 3rem;
+        span{
+            float: left;
+            width: 70px;
+            height: 70px;
+            border: 6px solid #232328;
+            border-radius: 50%;
+            color: $txtCompany;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1.5rem;
+            font-weight: 600;
+        }
+        h4{
+            float: left;
+            width: 70%;
+            color: #f9f9f9;
+            font-weight: 600;
+            padding: 0.5rem 0;
+        }
+        p{
+            float: left;
+            width: 70%;
+            font-size: 0.7rem;
+            color: $txtCompany;
+        }
+    }
+}

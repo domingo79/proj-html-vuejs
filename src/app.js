@@ -16,6 +16,24 @@ const app = new Vue({
                 title: 'Transport',
                 text: `We develop operational strategies to improve logical efficiency.`
             }
+        ],
+        diagramma: [
+            {
+                name: 'Leadership',
+                descrizione: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+                valore: 0
+            },
+            {
+                name: 'Psychology',
+                descrizione: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+                valore: 0
+            },
+            {
+                name: 'Flexibility',
+                descrizione: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+                valore: 1
+            }
+
         ]
     }
 });

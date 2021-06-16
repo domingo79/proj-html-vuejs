@@ -110,7 +110,16 @@
 
             <!-- sezione the company a due colonne  -->
             <section class="the_company">
-                <div class="about_company"></div>
+                <div class="about_company">
+                    <span>About the network</span>
+                    <h2><span>The</span> Company</h2>
+                    <p>Whit all of this expertise and capability comes unrivalled commitment to customer service.</p>
+                    <div class="grafico" v-for="ele in diagramma">
+                        <span>{{ele.valore + '%'}}</span>
+                        <h4>{{ele.name}}</h4>
+                        <p>{{ele.descrizione}}</p>
+                    </div>
+                </div>
                 <div class="about_company_image"></div>
             </section>
 
