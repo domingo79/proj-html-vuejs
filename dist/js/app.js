@@ -35,7 +35,8 @@ var app = new Vue({
       name: 'Flexibility',
       descrizione: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
       valore: 1
-    }]
+    }],
+    partners: './dist/img/logo-'
   }
 });
 

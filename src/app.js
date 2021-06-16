@@ -34,6 +34,7 @@ const app = new Vue({
                 valore: 1
             }
 
-        ]
+        ],
+        partners: './dist/img/logo-'
     }
 });

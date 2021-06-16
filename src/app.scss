@@ -10,6 +10,7 @@
 @import 'partials/business_area_cards';
 @import 'partials/company-about';
 @import 'partials/company-image';
+@import 'partials/partner-logo';
 
 
 
@@ -22,6 +23,11 @@ main{
     .the_company{
         width: 100%;
         height: 700px;
+    }
+    .partnerschip{
+        width: 100%;
+        height: 200px;
+        background-color: $bgBusinessArea;
     }
 }
 
