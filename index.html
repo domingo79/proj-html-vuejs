@@ -82,6 +82,7 @@
         </header>
 
         <main>
+            <!-- sezione logistics service  -->
             <section class="business_area">
                 <div class="business_area_cards">
                     <div class="card_service">
@@ -96,19 +97,23 @@
                         </ul>
                         <a href="#">READ MORE</a>
                     </div>
-                    <div class="card_tecnology">
-                        <img src="./dist/img/gallery-3.jpg" alt="">
-                        <h3>Technology</h3>
-                        <p>Focused on developing techology solutions adapted to out client's needs.</p>
-                    </div>
-                    <div class="card_transport">
-                        <img src="./dist/img/gallery-5.jpg" alt="">
-                        <h3>Transport</h3>
-                        <p>We develop operational strategies to improve logical efficiency.</p>
+                    <!-- cards gen da vue  -->
+                    <div v-for="ele  in businessAria">
+                        <div :class="ele.name">
+                            <img :src="ele.image" alt="">
+                            <h3>{{ele.title}}</h3>
+                            <p>{{ele.text}}</p>
+                        </div>
                     </div>
                 </div>
-
             </section>
+
+            <!-- sezione the company a due colonne  -->
+            <section class="the_company">
+                <div class="about_company"></div>
+                <div class="about_company_image"></div>
+            </section>
+
 
         </main>
 
