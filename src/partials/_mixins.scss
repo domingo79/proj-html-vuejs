@@ -11,6 +11,26 @@
 
 @mixin card_Business {
     height: 300px;
-    width: 220px;
+    width: 260px;
     margin: 0.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    img{
+        width: 180px;
+        height: 150px;
+    }
+    h3{
+        padding: 0.5rem 0.2rem;
+        align-self: flex-start;
+        color: $titoloGrande;
+    }
+    p{
+        font-size: small;
+        color: $txtParagrafo;
+        padding: 0.25rem 0.2rem;
+    }
 }
