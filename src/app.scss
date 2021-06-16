@@ -3,11 +3,10 @@
 @import 'partials/variables.scss';
 @import 'partials/mixins';
 @import 'partials/nav-top';
+@import 'partials/header';
+@import 'partials/logo';
+@import 'partials/header-rigth';
+@import 'partials/header-cards';
 
-header{
-    width: 100%;
-    height: 95vh;
-    background-image: url('../img/jumbo.jpg');
-    background-position: center, left;
-    filter: brightness(0.5);
-}
+
+

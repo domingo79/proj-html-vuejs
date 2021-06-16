@@ -1,0 +1,15 @@
+.nav_header{
+    padding-top: 1.5rem;
+    margin-left: 3.5rem;
+
+    a{
+        color: $txtNav;
+        margin: 0 1.25rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: small;
+    }
+    .btn_full{
+        @include button_full;
+    }
+}

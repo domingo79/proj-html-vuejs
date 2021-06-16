@@ -1,0 +1,21 @@
+.logo{
+    margin-left: 8rem;
+    padding-top: 1.5rem;
+    span:first-child{
+        color: $logoNex;
+        font-weight: 600;
+        font-size: larger;
+        letter-spacing: 5px;
+        background-color: rgba($color: #048383, $alpha: 0.20);
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        padding: 0.1rem;
+        padding-left: 0.75rem;
+    }
+    & span:last-child{
+        color: $txtNav;
+        font-weight: 600;
+        letter-spacing: 5px;
+        font-size: larger;
+    }
+}

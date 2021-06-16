@@ -1,29 +1,34 @@
-nav{
+nav{   
     width: 100%;
     height: 5vh;
-    background-color: $OuterSpace;
-    display: flex;
-    justify-content: space-between;
-    .nav_left{
-        width: 45%;
-        color: $GrayNurse;
-        text-align: center;
-        i,span{
-            font-size: x-small;
-            margin: 0.15rem;
+    background-color: $bgNav;
+    .container_nav{
+        width: 80%;
+        margin: 0 auto;
+        .nav_left{
+            width: 40%;
+            color: $txtNav;
+            text-align: left;
+            float: left;
+            i,span{
+                font-size: x-small;
+                margin: 0.15rem;
+                }
+        }
+        .nav_right{
+            width: 60%;
+            color: $txtNav;
+            text-align: right;
+            float: left;
+            i{
+                margin: 0.15rem;
+                }
+            li{
+                @include list-in-line;
+                font-size: x-small;
+                margin: 1rem;
+                }
         }
     }
-    .nav_right{
-        width: 55%;
-        color: $GrayNurse;
-        text-align: center;
-        i{
-            margin: 0.15rem;
-        }
-        li{
-            @include list-in-line;
-            font-size: x-small;
-            margin: 1rem;
-        }
-    }
+
 }

@@ -1,0 +1,42 @@
+.card_header{
+    margin: 4rem auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    .card_header_title, h1{
+        font-size: 4rem;
+        color: $logoGen;
+        & span{
+            display: block;
+            width: 300px;
+            box-shadow: inset 0px -49px 0px 0px #0483836e;
+        }       
+    }
+    .card_header_text, p{
+        color: $txtNav;
+        font-size: large;
+        font-weight: 400;
+        padding: 0.5rem 0;
+    }
+    .card_header_btn {
+        padding: 1rem 0;
+        width: 350px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        a:first-child{
+            @include button_full;
+            text-decoration: none;
+            margin-right: 1.5rem;
+            }
+        a:last-child{
+            text-decoration: none;
+            color: $txtNav;
+            border: 1px solid $logoNex;
+            padding: 0.4rem 1.6rem;
+        }
+    }
+}

@@ -2,3 +2,9 @@
     display: inline;
     text-decoration: none;
 }
+@mixin button_full {
+    background-color: $logoNex;
+    color: $txtNav;
+    padding: 0.4rem 1.6rem;
+    border-radius: 0.1rem;
+}
