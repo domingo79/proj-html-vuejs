@@ -1,18 +1,17 @@
 .footer_container{
-    width: 60%;
+    width: 65%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .footer_card{
-        width: 190px;
+        width: 210px;
         height: 250px;
         padding: 1.5rem;
-        background-color: #ffffff07;
-        border-radius: 10px;
         ul{
             list-style: none;
+            padding: 0.5rem 0;
             li{
                 color: #9FADB3;
                 padding: 0.15rem;
@@ -24,5 +23,25 @@
             font-weight: 500;
             padding: 0.75rem 0;
         }
+    }
+    .about, .transport, .support{
+        background-color: #ffffff07;
+        border-radius: 10px;
+    }
+    #reset_logo{
+        padding: 0;
+        margin: 0;
+    }
+    span{
+        color: #9FADB3;
+        font-size: x-small;
+    }
+    a{
+        color: $logoNex;
+        font-size: medium;
+        text-decoration: none;
+        border: 1px solid $logoNex;
+        border-radius: 3px;
+        padding: 0.3rem 0.6rem;
     }
 }
