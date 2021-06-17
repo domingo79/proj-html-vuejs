@@ -1,0 +1,13 @@
+.footer_container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .footer_card{
+        width: 170px;
+        height: 250px;
+        border: 1px solid red;
+    }
+}
