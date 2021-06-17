@@ -11,6 +11,8 @@
 @import 'partials/company-about';
 @import 'partials/company-image';
 @import 'partials/partner-logo';
+@import 'partials/latest-new';
+
 
 
 
@@ -28,6 +30,10 @@ main{
         width: 100%;
         height: 200px;
         background-color: $bgBusinessArea;
+    }
+    .latest{
+        width: 100%;
+        height: 590px;
     }
 }
 

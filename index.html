@@ -130,6 +130,24 @@
                     </span>
                 </div>
             </section>
+            <!-- sezione latest con 3 card  -->
+            <section class="latest">
+                <div class="new">
+                    <h6>Our editorial content</h6>
+                    <h2>Latest <span>News</span> </h2>
+                    <div class="mose">
+                        <span>Every week we publish content about what is best in the business world.</span>
+                        <a href="#">SELL ALL</a>
+                    </div>
+                    <div class="latest_cards">
+                        <div class="latest_card" v-for="ele in latests">
+                            <img :src="ele.image" alt="">
+                            <p>{{ele.title}}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
         </main>

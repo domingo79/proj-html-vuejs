@@ -36,7 +36,17 @@ var app = new Vue({
       descrizione: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
       valore: 1
     }],
-    partners: './dist/img/logo-'
+    partners: './dist/img/logo-',
+    latests: [{
+      title: 'Increasing creativity is possible for ereryone',
+      image: './dist/img/news-1.jpg'
+    }, {
+      title: 'Because market reserch is part of the business plan',
+      image: './dist/img/news-2.jpg'
+    }, {
+      title: 'Work from home is now a trend',
+      image: './dist/img/news-3.jpg'
+    }]
   }
 });
 
