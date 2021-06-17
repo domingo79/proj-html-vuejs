@@ -1,0 +1,108 @@
+.send_message{
+    width: 100%;
+    height: 600px;
+    background-color: $bgBusinessArea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .send_message_form{
+        width: 500px;
+        height: 450px;
+        padding: 1.5rem;
+        h6{
+            text-transform: uppercase;
+            color: $titoloPiccolo;
+        }
+        h2{
+            font-size: 2.1rem;
+            color: $titoloGrande;
+            padding: 1rem 0;
+            span{
+                background-color: $fintiPulsanti;
+                color: $logoNex;
+                border-radius: 3px;
+                padding: 0.2rem 0.5rem;
+            }
+        }
+        p{
+            color: $txtSend;
+            font-size: x-small;
+            padding: 1rem 0 1.5rem;
+        }
+        form{
+            width: 100%;
+            height: 190px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+        input, select{
+            width: 48%;
+            height: 34px;
+            background-color: $bgForm;
+            color: $txtSend;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: none;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 0.5rem;
+            border-radius: 4px;
+            background-color: $bgForm;
+            color: $txtSend;
+            resize: none;
+            border: none;
+        }
+        a{
+            text-decoration: none;
+            @include button_full;
+            padding: 0.2rem 1rem;
+            margin-top: 2rem;
+        }
+          
+    }
+    .send_message_example{
+        width: 350px;
+        height: 450px;
+        padding: 0.5rem 0.5rem; 
+        h5{
+            font-size: large;
+            font-weight: 600;
+            color: $titoloGrande;
+            padding: 0.5rem 0;
+        }
+        p{
+            font-size: small;
+            padding: 0.3rem 0;
+            color: $txtSend;
+        }
+        ul{
+            list-style: none;
+            margin-bottom: 1rem;
+        }
+        li{
+            color: $logoNex;
+            font-size: small;
+            padding: 0.6rem 0;
+            i{
+                background-color: $fintiPulsanti;
+                padding: 0.6rem;
+                border-radius: 50%;
+            }
+        }
+        a{
+            color: $logoNex;
+            font-size: medium;
+            text-decoration: none;
+            border: 1px solid $logoNex;
+            border-radius: 3px;
+            padding: 0.3rem 0.6rem;
+        }
+    }
+}

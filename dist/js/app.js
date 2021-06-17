@@ -12,6 +12,7 @@ var app = new Vue({
   data: {
     phone: '+1(305) 1234-5678',
     email: 'hello@example.com',
+    address: 'Main Avenue, 987',
     businessAria: [{
       name: 'card_tecnology',
       image: './dist/img/gallery-3.jpg',
