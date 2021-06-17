@@ -45,6 +45,15 @@ footer{
     background-image: url('../img/bg-10.jpg');
     background-size: cover;
     background-position: center center;
+    .copyright{
+        display: flex;
+        justify-content: space-around;
+        color: #9FADB3;
+        font-size: x-small;
+       #coding{
+            color: $logoNex;
+        }
+    }
 }
 
 
